@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.SquareValue {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  font-size: 24px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: row;
+  border: 5px solid #000000;
+  margin: 20px;
+}
+
+.SquareValueRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
